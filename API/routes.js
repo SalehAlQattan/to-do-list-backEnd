@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const { fetchTodos } = require('../API/controllers');
+const { fetchTodos, createTodo } = require('../API/controllers');
 
 router.get('/', fetchTodos);
 
-// router.post('/', createTod);
+router.post('/', createTodo);
 
 // router.delete('/:todoId', deleteTodo);
 
