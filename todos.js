@@ -1,12 +1,12 @@
 const todos = [
   {
     id: 1,
-    name: 'test 1',
+    name: 'todo 1',
     status: false,
   },
   {
     id: 2,
-    name: 'test 2',
+    name: 'todo 2',
     status: true,
   },
 ];
